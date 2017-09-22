@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtfname"
+
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/Lastname"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtlname"
+        android:layout_below="@+id/Firstname"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtemail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/Lastname"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtpassword"
+        android:inputType="textPassword"
+        android:layout_below="@+id/Email"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtphone"
+        android:inputType="phone"
+        android:layout_below="@+id/Password"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="match_parent"
+        android:text="@string/text_button"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Phone"
+        android:background="@color/winnie"/>
+    android
+</RelativeLayout>
